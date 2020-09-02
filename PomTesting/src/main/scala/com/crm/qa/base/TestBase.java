@@ -23,8 +23,8 @@ public class TestBase extends TestUtil{
 		try {
 			 prop = new Properties();
 			 
-			 FileInputStream ip= new FileInputStream("C:\\Users\\91953\\eclipse-workspace\\PomTesting\\src\\main\\scala\\com\\"
-			 		+ "crm\\qa\\config\\config.properties.exe");
+			 FileInputStream ip= new FileInputStream("C:\\Users\\91953\\git\\PomTesting\\PomTesting\\src\\main\\scala\\com\\crm\\qa\\"
+			 		+ "config\\config.properties.exe");
 			 prop.load(ip);
 		} catch(FileNotFoundException e){
 			e.printStackTrace();
